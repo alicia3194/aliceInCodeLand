@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em; color:black;}
+h3{ font-size: 1.5em;}
+p{font-size:1.2em;}
+ul{ list-style: none;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color:#87BBA2;
+  
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    text-decoration-line:overline underline;
+}
+
+header .container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: black;
+    font-size: 1.6em;
+}
+
+header nav{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 5px 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: whitesmoke;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(197, 191, 191, 0.668),
+        rgba(232, 227, 227, 0.659)
+    )
+    , url("/IMG_4699.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+          /* estilos biografia*/
+
+/*primersa sección*/
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+}
+
+
+#hero1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(247, 245, 245, 0.77),
+        rgba(252, 252, 252, 0.728)
+    )
+    , url("/IMG_4692.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+/* segunda sección*/
+
+#text .container{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 25px 30px;
+
+     
+}
+
+#text .parting{
+    width: 50%;
+    max-width: 50%;
+    text-align: initial;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+#text h3{
+    margin-top: 4x;
+    margin-left: 20px;
+    font-size:22px;
+    line-height : 50px;
+     
+}
+
+#text .img-container{
+    background-image:url("/Alicia\ TO\ copia.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 500px;
+    max-width: 600px;
+    height: 500px;
+ 
+
+}
+
+.line{
+    height: 6px;
+  background-color: rgb(157, 154, 154)
+}
+
+/* TERCERA sección biografia*/
+
+#text-second .container{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 25px 30px;
+
+     
+}
+
+#text-second .parting{
+    width: 50%;
+    max-width: 50%;
+    text-align: initial;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+#text-second h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size:22px;
+    line-height : 50px;
+     
+}
+
+
+
+#text-second .video{
+    background-image:url("/a80ad166c90a49a19c7a8563d9ec17cf.MP4");
+    background-size: cover;
+    background-position: center center;
+    width: 600px;
+    max-width: 600x;
+    height: 600px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+    /* estilos portfolio
+primera sección*/
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+}
+
+
+#hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(247, 245, 245, 0.77),
+        rgba(252, 252, 252, 0.728)
+    )
+    , url("/IMG_4701.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+  /* estilos portfolio
+segunda sección*/
+
+#nuestros-programas .programas{
+    display: flex;
+    justify-content: center;
+
+}
+#nuestros-programas p{
+    display: block;
+    margin-bottom: 15px;
+
+}
+#nuestros-programas .carta{
+    padding:15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*crear variable para header y footer*/
+footer{
+    background-color:#87BBA2;
+}
+footer p{
+    margin: 0;
+    padding: 20px;
+    color: black;
+
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: overline;
+    
+}
+
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
