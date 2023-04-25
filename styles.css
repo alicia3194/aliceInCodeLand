@@ -66,7 +66,7 @@ header a:hover{
         rgba(197, 191, 191, 0.668),
         rgba(232, 227, 227, 0.659)
     )
-    , url("/imagenes/IMG_4699.JPG");
+    , url("imagenes/IMG_4699.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -93,7 +93,7 @@ header .logo{
         rgba(247, 245, 245, 0.77),
         rgba(252, 252, 252, 0.728)
     )
-    , url("/imagenes/IMG_4692.JPG");
+    , url("imagenes/IMG_4692.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -129,7 +129,7 @@ header .logo{
 }
 
 #text .img-container{
-    background-image:url("/imagenes/Alicia\ TO\ copia.jpg");
+    background-image:url("imagenes/Alicia\ TO\ copia.jpg");
     background-size: cover;
     background-position: center center;
     width: 500px;
@@ -174,7 +174,7 @@ header .logo{
 
 
 #text-second .video{
-    background-image:url("/imagenes/a80ad166c90a49a19c7a8563d9ec17cf.MP4");
+    background-image:url("imagenes/a80ad166c90a49a19c7a8563d9ec17cf.MP4");
     background-size: cover;
     background-position: center center;
     width: 600px;
@@ -213,7 +213,7 @@ header .logo{
         rgba(247, 245, 245, 0.77),
         rgba(252, 252, 252, 0.728)
     )
-    , url("/imagenes/IMG_4701.JPG");
+    , url("imagenes/IMG_4701.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
